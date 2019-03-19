@@ -79,7 +79,7 @@ axis('off')
 show()
 ```
 这里要特别说明，为了能准确的将第一幅图放在第二幅图中我们想要的位置，需要找出要放置在第二图中的角点坐标，这里我们可以使用PyLab类库中的ginput()函数获得，代码如下：  
-```
+```python
 from PIL import Image
 from pylab import *
 
