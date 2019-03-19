@@ -5,9 +5,7 @@
 ![image](https://github.com/Nocami/PythonComputerVision-3/blob/master/images/111.jpg)  
 点的齐次坐标依赖于其尺度定义，因此单应性矩阵H也仅依赖尺度定义，所以，单应性矩阵具有8个独立的自由度。  
 ### 两种重要映射类型：
-![image](https://github.com/Nocami/PythonComputerVision-3/blob/master/images/03.jpg)  
-图-原图  
-![image](https://github.com/Nocami/PythonComputerVision-3/blob/master/images/01.jpg)  
+![image](https://github.com/Nocami/PythonComputerVision-3/blob/master/images/01bb.jpg)  
 图-透视  
 ![image](https://github.com/Nocami/PythonComputerVision-3/blob/master/images/04仿射.jpg)  
 图-仿射  
