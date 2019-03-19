@@ -23,7 +23,7 @@ transformed_im = ndimage.affine_transform(im,A,b,size)
 仿射扭曲的一个简单例子是，将图像或者图像的一部分放置在另一幅图像中，使得它们能够和指定的区域或标记物对齐。  
 函数image_in_image()的输入参数为两幅图像和一个坐标。该坐标为将第一幅图像放置到第二幅图像中的角点坐标。  
 详细代码如下：  
-`
+``
  # -*- coding: utf-8 -*-
 from PCV.geometry import warp, homography
 from PIL import  Image
@@ -77,9 +77,9 @@ subplot(144)
 imshow(im4)
 axis('off')
 show()
-`
+``
 这里要特别说明，为了能准确的将第一幅图放在第二幅图中我们想要的位置，需要找出要放置在第二图中的角点坐标，这里我们可以使用PyLab类库中的ginput()函数获得，代码如下：  
-`
+``
 from PIL import Image
 from pylab import *
 
@@ -89,7 +89,7 @@ print 'Please click 3 points'
 x = ginput(3)
 print 'you clicked:',x
 show()
-`
+``
 此段代码可以帮助你找到图片中的角点坐标，即鼠标所☞的位置，显示在左下角中。  
 **还需特别说明**：函数参数中的输入分别为[y1,y2,y3,y4][x1,x2,x3,x4][1,1,1,1]，即图片的**左上角**开始，逆时针旋转。  
 这里使用了我目前所在高校--JMU的部分图片来给大家做演示：  
