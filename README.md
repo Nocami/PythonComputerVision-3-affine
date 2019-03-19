@@ -9,7 +9,7 @@
 图-原图  
 ![image](https://github.com/Nocami/PythonComputerVision-3/blob/master/images/01.jpg)  
 图-透视  
-![image](https://github.com/Nocami/PythonComputerVision-3/blob/master/images/04.jpg)  
+![image](https://github.com/Nocami/PythonComputerVision-3/blob/master/images/04仿射.jpg)  
 图-仿射  
 ### 
 ![image](https://github.com/Nocami/PythonComputerVision-3/blob/master/images/001b.jpg)
