@@ -101,4 +101,5 @@ show()
 特写：  
 ![image](https://github.com/Nocami/PythonComputerVision-3/blob/master/images/QQ%E6%88%AA%E5%9B%BE20190319153042.jpg)  
 
-这就是使用仿射变换将一副图像放置到另一幅图像中的实例。
+这就是使用仿射变换将一副图像放置到另一幅图像中的实例。  
+end
