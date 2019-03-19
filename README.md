@@ -23,7 +23,7 @@ transformed_im = ndimage.affine_transform(im,A,b,size)
 仿射扭曲的一个简单例子是，将图像或者图像的一部分放置在另一幅图像中，使得它们能够和指定的区域或标记物对齐。  
 函数image_in_image()的输入参数为两幅图像和一个坐标。该坐标为将第一幅图像放置到第二幅图像中的角点坐标。  
 详细代码如下：  
-```
+```python
  # -*- coding: utf-8 -*-
 from PCV.geometry import warp, homography
 from PIL import  Image
